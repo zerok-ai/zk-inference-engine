@@ -1,0 +1,26 @@
+{
+  "source": "sofa-shop-mysql/order",
+  "destination": "sofa-shop-mysql/inventory",
+  "metadata": "{}",
+  "latency_ns": 13849659,
+  "protocol": "http",
+  "status": "200",
+  "parent_span_id": "71a031bb9bd8031d",
+  "workload_id_list": [
+    "ae427f14-9833-539c-933f-f0f26c6e4263"
+  ],
+  "time": "2023-07-22T10:54:14.513658Z",
+  "request_payload": {
+    "req_path": "/api/inventory?quantity=14\\u0026skuCode=ce338a25-91aa-4988-8fcd-d3a1e4bf28ae",
+    "req_method": "GET",
+    "req_headers": "",
+    "req_body": ""
+  },
+  "response_payload": {
+    "resp_status": "200",
+    "resp_message": "",
+    "resp_headers": "",
+    "resp_body": "false"
+  },
+  "span_id": "a2eee45901f76b93"
+}

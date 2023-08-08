@@ -1,0 +1,27 @@
+{
+  "source": "sofa-shop-mysql/order",
+  "destination": "zk-client/zk-operator",
+  "metadata": "{}",
+  "latency_ns": 142251,
+  "protocol": "exception",
+  "status": "200",
+  "parent_span_id": "d9b5358e83d6a1a1",
+  "workload_id_list": [
+    "55661a0e-25cb-5a1c-94cd-fad172b0caa2",
+    "ae427f14-9833-539c-933f-f0f26c6e4263"
+  ],
+  "time": "2023-07-22T10:54:14.535184Z",
+  "request_payload": {
+    "req_path": "/exception",
+    "req_method": "POST",
+    "req_headers": "",
+    "req_body": "{stacktrace=[ai.zerok.order.service.OrderService.checkStockInInventory(OrderService.java:182),ai.zerok.order.service.OrderService.placeOrder(OrderService.java:67),java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(NativeMethod),java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77),java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43),java.base/java.lang.reflect.Method.invoke(Method.java:568),org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343),org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196),org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163),org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752),"
+  },
+  "response_payload": {
+    "resp_status": "200",
+    "resp_message": "OK",
+    "resp_headers": "",
+    "resp_body": ""
+  },
+  "span_id": "cecaf8a30750ce1d"
+}

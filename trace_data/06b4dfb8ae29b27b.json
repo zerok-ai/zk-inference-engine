@@ -1,0 +1,26 @@
+{
+  "source": "sofa-shop-mysql/inventory",
+  "destination": "",
+  "metadata": "{}",
+  "latency_ns": 523848,
+  "protocol": "mysql",
+  "status": "2",
+  "parent_span_id": "a2eee45901f76b93",
+  "workload_id_list": [
+    ""
+  ],
+  "time": "2023-07-22T10:54:14.511917Z",
+  "request_payload": {
+    "req_path": "3306",
+    "req_method": "",
+    "req_headers": "",
+    "req_body": "/*traceparent:00-0dbbdce21e6f9eac3579eb54dc7c8de0-06b4dfb8ae29b27b-00,tracestate:zerok=a8ff704bd4ed51d3*/setsessiontransactionreadwrite"
+  },
+  "response_payload": {
+    "resp_status": "2",
+    "resp_message": "",
+    "resp_headers": "",
+    "resp_body": ""
+  },
+  "span_id": "06b4dfb8ae29b27b"
+}
